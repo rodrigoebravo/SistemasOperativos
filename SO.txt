@@ -1,0 +1,71 @@
+SISTEMAS OPERATIVOS
+
+
+GNU/Linux
+
+marcos pablo russo
+
+correo:marcospr1974@gmail.com
+
+https://github.com/martin919191/
+
+
+http://www.linuxfromscratch.org/
+
+https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
+los paquetes terminan siendo un binario o ejecutable
+
+/******************************/
+
+GNU, los programas
+Linux el corazon del SO.
+
+licencias gpl
+diferencias entre lenguaje interpretado y compilado
+
+Virtualizacion
+
+http://fluxbox.org/download/
+ubuntu
+kubuntu
+xubuntu
+
+DOWNLOAD
+https://www.virtualbox.org/wiki/Downloads
+
+
+Tails ->tor (deep web)
+zone h.org/
+hidden wiki
+
+
+
+APT-GET INSTALL BUILD ESSENTIAL
+Metapaquete
+
+
+Si tengo un window 64 y yo tengo 32 hay qu tildar....> sistema--procesador--caracteristicas extendidas Habilitar PAE/NX
+
+
+osboxes.org/debian
+
+"adaptacion puente" para tener internet en la maquina virtual
+
+
+Cosas que ni pude ver:
+
+ctrl + alt + t "nueva terminal"
+
+dispositivos y soportes extraibles
+
+
+http://www.pathname.com/fhs/pub/fhs-2.3.pdf
+
+rwx read write exec
+- archivo
+d directorio
+
+dueño-grupo-otros
+
+
+cd .config
