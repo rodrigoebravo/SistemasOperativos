@@ -89,4 +89,16 @@ ls -ld /Escritorio/
 ls -l root
 ***
 ls -lh root
+***
+cd /proc
+no ocupa en disco pero si en memoria
 
+***
+cat /proc/meminfo
+***
+
+***
+cat /proc/cpuinfo
+
+***
+vmx es el flag que permite virtualizacion
