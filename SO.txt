@@ -102,3 +102,8 @@ cat /proc/cpuinfo
 
 ***
 vmx es el flag que permite virtualizacion
+***
+cat /proc/version
+*** 
+QUE ES UN KERNEL????
+***
