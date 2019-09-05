@@ -110,4 +110,9 @@ QUE ES UN KERNEL????
 cat cmdline
 todos los procesos dependen de este, pues es quien inicializa todo.
 ***
+more /proc/cpuinfo
+por paginas
+(con q sale)
+***
+less /proc/cpuinfo
 
