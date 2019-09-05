@@ -67,5 +67,26 @@ d directorio
 
 dueño-grupo-otros
 
-
+Comandos:
 cd .config
+***
+
+history
+!NUMERODELINEA
+***
+pwd
+***
+cat .bash_history
+
+cd - te lleva al inmediato anterior en el historial
+cd .. te lleva al anterior en el arbol del directorio
+
+diferencia entre relativo y absoluto
+cd /usr/local/../src
+***
+ls -ld /Escritorio/
+***
+ls -l root
+***
+ls -lh root
+
