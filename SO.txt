@@ -107,3 +107,7 @@ cat /proc/version
 *** 
 QUE ES UN KERNEL????
 ***
+cat cmdline
+todos los procesos dependen de este, pues es quien inicializa todo.
+***
+
