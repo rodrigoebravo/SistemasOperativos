@@ -115,4 +115,39 @@ por paginas
 (con q sale)
 ***
 less /proc/cpuinfo
+**************************************************************
+Clase 4
+-------
+programa --> HxD
+
+vv Archivo.txt
+
+ls -la
+
+Perfil:
+nombre@nombredehost:directorio
+
+sudo-> 
+sudo su
+
+cuales son los absolutos o relativos...
+
+
+cd - volves al paso anterior, sirve para directorios muy largos
+sudo su -
+
+proc/
+1 es el proceso padre, se llama "init"
+
+grek nombredelarchivo
+cat ve todo el contenido de un archivo
+more ve el contenido en pausas
+less busca palabra y la pinta (con espacio va de a lineas y con enter de a paginas)
+
+cat 		cpuinfo info del cpu
+cat		meminfo info de la memoria
+
+ls -ld /proc    no se mete, se lista el directorio con los permisos y demas
+ls -d /proc 	no se mete, se lista 
+ls -lh /proc	data en gb
 
