@@ -151,3 +151,24 @@ ls -ld /proc    no se mete, se lista el directorio con los permisos y demas
 ls -d /proc 	no se mete, se lista 
 ls -lh /proc	data en gb
 
+
+EJERCICIO:
+
+*entrar en el directorio /proc
+	*lista en forma columnas
+	*lista en forma normal
+*entrar en nuestro home
+	*listar todos el contenido incluyendo los archivos ocultos
+	*ir un paso para atras y listar
+	*volver a nuestro directorio home
+	*ir al directorio que estuvimos anteriormente
+
+
+ls /
+lost+found por cada particion que se genera, se genera este directorio en el root :~$ (buscar)
+buscar diferencia entre :~$ y :~#
+root@xubuntu-dev:~#					??????????????????????????????????????
+
+
+
+
