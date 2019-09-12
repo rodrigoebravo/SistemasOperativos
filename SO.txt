@@ -168,7 +168,19 @@ ls /
 lost+found por cada particion que se genera, se genera este directorio en el root :~$ (buscar)
 buscar diferencia entre :~$ y :~#
 root@xubuntu-dev:~#					??????????????????????????????????????
+tty
+echo "HOLA" > /dev/pts/0
+
+lib = lib32, no existe lib32. Es lib solo
 
 
 
+https://www.fing.edu.uy/inco/cursos/sistoper/recursosLaboratorio/tutorial0.pdf
 
+
+172.105.153.22
+user: b.rodrigo
+pass: 123
+
+
+software -->		puTTY
