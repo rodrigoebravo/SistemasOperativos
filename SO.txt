@@ -81,7 +81,7 @@ cat .bash_history
 cd - te lleva al inmediato anterior en el historial
 cd .. te lleva al anterior en el arbol del directorio
 
-diferencia entre relativo y absoluto
+diferencia entre directorio relativo y absoluto
 cd /usr/local/../src
 ***
 ls -ld /Escritorio/
@@ -184,3 +184,37 @@ pass: 123
 
 
 software -->		puTTY
+
+nslookup www.google.com.ar
+DNS
+kernel boot -> guarda informacion
+dentro de boot se tiene archivos de configuracion y la version del kernel 4.8.0-22-generic
+
+-lh vmlinuz-4.8.0-22-generic
+cdrom
+dev
+ls -l sda* 
+ls -l tty*
+ls -l sdb*
+
+lost+found informacion que està rota o no encuentra se almacena aca
+opt permite poner programas distintos del sistema operativo.
+proc no ocupa espacio en disco pero si en memoria
+
+ls -l en forma de columnas
+ls -dl
+cat permite ver contenido de archivo
+stat /bin/ls
+inodo linux
+cd /usr/share/doc/../man
+cd ~
+scp para copiar archivos de forma remota
+scp -R
+
+
+
+cp -v path --> copiar archivos
+cp path juan --> copia con otro nombre
+cp -Rv /etc .
+cp -Rv /etc /tmp/pepe/
+
