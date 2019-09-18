@@ -217,4 +217,22 @@ cp -v path --> copiar archivos
 cp path juan --> copia con otro nombre
 cp -Rv /etc .
 cp -Rv /etc /tmp/pepe/
+cp -i
+mv --> mueve o renombre
+mv -v juan pepe
+mv pepe /tmp/pepe2
 
+rm -i hos*
+mkdir dir1 --> crea directorio dir1
+rm -r dir1 --> elimina directorio
+
+mkdir -p dir2/A1 ---> crea el directorio con el directorio hijo
+
+sudo su -
+
+~
+*Copiar el archivo ls.
+	*Crear un enlace simbolico
+	*Crear un enlace duro o fisico
+*Mover el enlace simbolico al directorio /tmp.
+*Mover el enlace duro al directorio /tmp
