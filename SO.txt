@@ -247,3 +247,23 @@ montar y desmontar la unidad
 mount -t iso9660 /dev/cdrom/media
 umount /media
 more /etc/fstab
+ls -l /dev/sd*
+
+Expresiones regulares
+
+nano archivo.txt
+
+existe int32?
+4 reglas de software libre
+creacion de directorio. comando para crear directorios
+
+grep 'root' archivo.txt
+grep 'Root' archivo.txt
+grep -i 'root' archivo.txt
+grep 'o*' archivo.txt
+grep '^$' archivo.txt
+grep '^Root' archivo.txt
+grep -v '^$' archivo.txt --> -v : "lo que no es"
+grep '^$' archivo.txt > s.txt ---> graba en archivo
+grep '^$' archivo.txt >> s.txt ---> agrega en archivo
+egrep '[a-z]{1,4}'
