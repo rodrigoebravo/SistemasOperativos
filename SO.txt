@@ -236,3 +236,14 @@ sudo su -
 	*Crear un enlace duro o fisico
 *Mover el enlace simbolico al directorio /tmp.
 *Mover el enlace duro al directorio /tmp
+
+
+ln -s simbolico
+
+
+
+punto de montaje
+montar y desmontar la unidad
+mount -t iso9660 /dev/cdrom/media
+umount /media
+more /etc/fstab
