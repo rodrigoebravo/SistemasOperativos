@@ -267,3 +267,6 @@ grep -v '^$' archivo.txt --> -v : "lo que no es"
 grep '^$' archivo.txt > s.txt ---> graba en archivo
 grep '^$' archivo.txt >> s.txt ---> agrega en archivo
 egrep '[a-z]{1,4}'
+-o en el grep trae exactamente la expresion
+strings /bin/ls | grep -i 'ELF'
+
