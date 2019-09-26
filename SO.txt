@@ -1,4 +1,4 @@
-SISTEMAS OPERATIVOS
+﻿SISTEMAS OPERATIVOS
 
 
 GNU/Linux
@@ -270,3 +270,89 @@ egrep '[a-z]{1,4}'
 -o en el grep trae exactamente la expresion
 strings /bin/ls | grep -i 'ELF'
 
+
+
+
+
+
+***********************************************
+
+
+
+ls -l archivo.txt
+rw-rw-r-- l
+- d l b c ^C
+rwx rwx rwx
+ls -l /etc
+
+rwx rwx rwx
+
+dueño-grupo ppal-otros
+
+"touch" creo un archivo si no existe, si existe me cambia la fecha
+ejemplo: touch archivo.txt
+
+chmod 740 "archivo.txt"
+
+chmod -R 777 pepe.txt
+-R o -r recursivo, cambia todo el directorio y los hijos
+
+"chown" modificar dueño
+chgrp 
+
+id
+trae dueño y grupos
+
+
+
+chown alumno:sudo a.txt
+cambia de grupo, mismo dueño(alumno)
+
+
+mkdir -p a/b/{c,d}
+
+o
+
+mkdir a
+cd a
+mkdir b
+cd b
+mkdir c
+mkdir d
+
+
+
+PARCIAL
+Lenguajes de programacion: de los 7 lenguajes cuales son compilados y cuales no, java son los dos.
+que es gnu?
+4 libertades
+como interactua el kernel con el hardware?
+
+Hardware
+Kernel tiene los drivers del hardware
+Software
+
+que es linux?
+LIB 32 no existe.... es LIB
+LIB o LIB64
+
+
+comando cp
+expresiones regulares
+
+virtualizacion: cuales son las ventajas?
+Como es el grafico de una maquina virtual?
+que es un hipervisor
+
+comandos basicos
+
+
+pad diferencia absoluto y relativo?
+absoluto empieza con raiz..... empieza con pad-----> /
+
+USUARIOS y PERMISOS 
+
+
+enlace estatico y inodo
+ls -li ar.txt
+trae el primer numero es el inodo
